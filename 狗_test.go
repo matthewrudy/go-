@@ -5,7 +5,7 @@ import (
 )
 
 func Test_叫(t *testing.T) {
-	狗 := 狗{
+	狗 := T狗{
 		名字: "盤瓠",
 	}
 

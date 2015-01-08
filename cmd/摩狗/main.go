@@ -2,17 +2,17 @@ package main
 
 import (
 	"github.com/matthewrudy/go-zh/動物"
+	"github.com/matthewrudy/go-zh/类型"
 )
 
-type 狗 struct {
-	名字 string
+type T狗 struct {
 }
 
-func (g *狗) 叫() 動物.T字符串 {
+func (g *T狗) 叫() 类型.T字符串 {
 	return "汪汪"
 }
 
 func main() {
-	汪汪 := 狗{}
+	汪汪 := T狗{}
 	動物.F摩(汪汪)
 }
