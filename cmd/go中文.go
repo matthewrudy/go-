@@ -1,7 +1,7 @@
 package main
 
 import (
-	go中文 "github.com/matthewrudy/go-zhongwen"
+	go中文 "github.com/matthewrudy/go-zh"
 )
 
 func main() {
