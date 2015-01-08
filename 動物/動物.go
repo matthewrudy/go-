@@ -6,10 +6,10 @@ import (
 )
 
 type 動物 interface {
-	叫() 类型.T字符串
+	F叫() 类型.T字符串
 }
 
 func F摩(朋友 動物) {
-	fmt.Println("你：可愛的動物")
-	fmt.Println("牠：", 朋友)
+	fmt.Println("你： 可愛的動物")
+	fmt.Println("牠：", 朋友.F叫(), "!!!")
 }

@@ -8,11 +8,11 @@ import (
 type T狗 struct {
 }
 
-func (g *T狗) 叫() 类型.T字符串 {
+func (g *T狗) F叫() 类型.T字符串 {
 	return "汪汪"
 }
 
 func main() {
-	汪汪 := T狗{}
+	汪汪 := &T狗{}
 	動物.F摩(汪汪)
 }
