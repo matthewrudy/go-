@@ -23,3 +23,13 @@ type T非整数 uint
 
 // string
 type T字符串 string
+
+// missing
+
+// complex64
+// complex128
+//
+// byte
+// rune
+//
+// uintptr
